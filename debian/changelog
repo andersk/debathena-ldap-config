@@ -1,3 +1,10 @@
+debathena-ldap-config (1.10) unstable; urgency=medium
+
+  * Remove MIT CA configuration.  (As it turns out, it was being
+    overridden by a later TLS_CACERT line in the upstream file anyway.)
+
+ -- Anders Kaseorg <andersk@mit.edu>  Sat, 25 Jun 2016 22:14:48 -0400
+
 debathena-ldap-config (1.9) unstable; urgency=low
 
   [ Jonathan Reed ]
